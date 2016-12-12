@@ -1,0 +1,47 @@
+body {
+  marin: 0;
+  padding: 0;
+}
+
+video {
+  postion: absolute;
+  top: 50%;
+  left: 50%;
+  tranform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height; auto;
+  z-index: 1;
+}
+
+.text, .text1{
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 28px;
+  z-index: 2;
+  text-align: center;
+  padding-top: 25%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.text1{
+    padding-top: 40%;
+}
+
+.text1 > a {
+  color: white;
+}
+
+.text1 > a:hover {
+  color: blue;
+}
+
+
+
+@media (max-width:480px)  { .text {  padding-top: 30%; margin-top: 30%; font-size: 20px; } .text1{padding-top: 75%; margin-top: 60%;} }
+@media (max-width:768px)  { .text {  padding-top: 25%; font-size: 28px;} .text1 {padding-top: 65%;} }
+@media (min-width:801px)  { .text {  padding-top: 15%;}}
