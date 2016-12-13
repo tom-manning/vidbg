@@ -1,3 +1,4 @@
+
 body {
   marin: 0;
   padding: 0;
@@ -40,7 +41,13 @@ overflow:hidden;
   left: 0;
   right: 0;
 }
-
+footer {
+  padding-top: 50%;
+  height: 400px;
+  background-color: ;
+  position: relative;
+  text-align: center;
+}
 .text1{
     padding-top: 40%;
 }
@@ -52,6 +59,7 @@ overflow:hidden;
 .text1 > a:hover {
   color: blue;
 }
+
 
 
 
